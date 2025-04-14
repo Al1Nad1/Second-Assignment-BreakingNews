@@ -1,15 +1,14 @@
 package AP;
 
 public class News {
-
     String title;
     String author;
     String description;
     String publishedAt;
     String SourceName;
     String Url;
-
-    public void DisplayNews() {
+    public void DisplayNews()
+    {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Description: " + description);
@@ -18,6 +17,3 @@ public class News {
         System.out.println("Url: " + Url);
     }
 }
-
-
-
